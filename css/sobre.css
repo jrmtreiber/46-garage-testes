@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+/*  */
+
+.cabecalho_46garage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 0 5px 30px yellow;
+
+  .logo_cabecalho {
+    width: 150px;
+    height: 75px;
+    cursor: pointer;
+  }
+
+  .ul_cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 2rem;
+  }
+
+  .li_cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border: solid 1px yellow;
+    transition: all 0.2s;
+    border-radius: 10px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  .links {
+    text-decoration: none;
+  }
+
+  .li_cabecalho:hover {
+    color: rgb(196, 160, 0);
+    border: solid 1px rgb(196, 160, 0);
+  }
+}
+
+/*  */
+
+.fundo {
+  margin-top: 0.1%;
+  display: flex;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 9)),
+    url("../imgs/fundo_cabecalho.png");
+  width: 100%;
+  height: 800px;
+
+  .conteiner_text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
+  }
+
+  .conteiner_text2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
+  }
+
+  .class_fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.274);
+    box-shadow: 0 0 10px yellow;
+    width: 100%;
+    height: 600px; 
+  }
+
+  .class_fotos2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.274);
+    box-shadow: 0 0 10px yellow;
+    width: 100%;
+    height: 100%;
+  }
+
+  .foto_text1 {
+    box-shadow: 0 0 10px yellow;
+    border-radius: 10px;
+    width: 100%;
+    height: 150px;
+    display: block;
+  }
+
+  .foto_text2 {
+    box-shadow: 0 0 10px yellow;
+    border-radius: 10px;
+    width: 100%;
+    height: 160px;
+  }
+
+  .foto_insta {
+    display: flex;
+    width: 10%;
+    height: 10%;
+  }
+
+  .text_img1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: yellow;
+  }
+
+  .text_img2 {
+    display: flex;
+    text-align: start;
+    align-items: center;
+    font-style: italic;
+    color: white;
+  }
+
+  .foto_text1:hover {
+    transform: scale(0.9);
+  }
+
+  .foto_text2:hover {
+    transform: scale(0.9);
+  }
+
+  .conteiner_form {
+    display: flex;
+    margin-top: 5%;
+    margin-right: 5%;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .form-container {
+    background-color: black;
+    color: yellow;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    box-shadow: 0 0 10px yellow;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+  }
+
+  button {
+    background-color: black;
+    color: yellow;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  button:hover {
+    background-color: yellow;
+    color: black;
+  }
+}
+
+/*  */
+
+.footer_46garage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 10px 0 15px yellow;
+  width: 100%;
+  height: 50px;
+
+  .conteiner_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+  }
+
+  .logo_footer {
+    display: flex;
+    width: 60px;
+    height: 32.5px;
+    cursor: pointer;
+  }
+
+  .text1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: yellow;
+  }
+
+  .link_insta,
+  .insta_logo {
+    margin: 0;
+    padding: 0;
+  }
+
+  .insta_logo {
+    width: 12%;
+    height: 12%;
+    cursor: pointer;
+  }
+
+  .link_insta {
+    display: inline-block;
+    width: 12%;
+    height: 12%;
+  }
+
+  .sobre {
+    text-decoration: underline;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: yellow;
+  }
+
+  .creditos {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
+  }
+}
