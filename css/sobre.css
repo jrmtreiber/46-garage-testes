@@ -135,15 +135,16 @@ body {
 
   .text_img2 {
     display: flex;
+    margin: 10px;
     text-align: start;
     align-items: center;
     font-style: italic;
     color: white;
   }
 
-  .foto_text1:hover {
+  /* .foto_text1:hover {
     transform: scale(0.9);
-  }
+  } */
 
   .foto_text2:hover {
     transform: scale(0.9);
@@ -199,30 +200,33 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
-  box-shadow: 10px 0 15px yellow;
   width: 100%;
-  height: 50px;
+  height: 80px;
+  box-shadow: 10px 0 15px yellow;
+  background-color: black;
 
   .conteiner_footer {
     display: flex;
+    flex-wrap: wrap;
+    /* Permitir que os elementos quebrem linha */
     justify-content: center;
     align-items: center;
-    gap: 8rem;
+    gap: 2rem;
+    /* Ajuste o espaçamento entre elementos */
   }
 
   .logo_footer {
-    display: flex;
     width: 60px;
     height: 32.5px;
     cursor: pointer;
   }
 
-  .text1 {
+  .text1,
+  .text2,
+  .sobre-link {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    max-width: none;
-    width: 100%;
     color: yellow;
+    text-align: center;
   }
 
   .link_insta,
@@ -269,7 +273,7 @@ body {
   }
 
   .logo_cabecalho {
-    max-width: 300%;
+    max-width: 60%;
     max-height: 35px;
   }
 
@@ -280,9 +284,16 @@ body {
 
   .fundo {
     display: flex;
+    margin-top: 1%;
     max-width: 100%;
+    height: 1200px;
     flex-direction: column;
     gap: 1rem;
+  }
+
+  button:active {
+    background-color: yellow;
+    color: black;
   }
 
   .conteiner_form {
@@ -295,20 +306,18 @@ body {
 
   .footer_46garage {
     max-width: 100%;
-    margin-top: 70%;
   }
 
   .conteiner_footer {
-    max-width: 100%;
-    max-height: 500px;
+    gap: 6rem;
   }
 
-  .text1 {
-    font-size: 15px;
-    max-width: 100px;
-    width: 100%;
+  .text1,
+  .text2 {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     color: yellow;
+    text-align: center;
+    max-width: 100%;
   }
 
   .creditos {
@@ -340,24 +349,32 @@ body {
     max-height: 35px;
   }
 
+  .fundo {
+    display: flex;
+    max-width: 100%;
+    height: 1200px;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
   .conteiner_form {
     margin-left: -5%;
   }
 
   .footer_46garage {
     max-width: 100%;
-    margin-top: 75%;
   }
 
   .conteiner_footer {
     max-width: 100%;
     max-height: 500px;
+    gap: 1.5rem;
   }
 
-  .text1 {
-    font-size: 13px;
-    max-width: 100px;
-    width: 100%;
+  .text1,
+  .text2 {
+    font-size: 14px;
+    /* Ajusta o tamanho da fonte para telas pequenas */
   }
 
   .creditos {

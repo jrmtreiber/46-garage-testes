@@ -135,47 +135,47 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
-  box-shadow: 10px 0 15px yellow;
   width: 100%;
-  height: 50px;
+  height: 80px;
+  box-shadow: 10px 0 15px yellow;
+  background-color: black;
+}
 
-  .conteiner_footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8rem;
-  }
+.conteiner_footer {
+  display: flex;
+  flex-wrap: wrap;
+  /* Permitir que os elementos quebrem linha */
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  /* Ajuste o espaçamento entre elementos */
+}
 
-  .logo_footer {
-    display: flex;
-    width: 60px;
-    height: 32.5px;
-    cursor: pointer;
-  }
+.logo_footer {
+  width: 60px;
+  height: 32.5px;
+  cursor: pointer;
+}
 
-  .text1 {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    max-width: none;
-    width: 100%;
-    color: yellow;
-  }
+.text1,
+.text2,
+.sobre-link {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: yellow;
+  text-align: center;
+}
 
-  .sobre {
-    text-decoration: underline;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    color: yellow;
-  }
+.sobre-link {
+  text-decoration: none;
+}
 
-  .creditos {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    color: white;
-  }
+.sobre-link:hover .text2 {
+  text-decoration: underline;
 }
 
 /*  */
 
-@media (max-width: 1024px) {
+@media (max-width: 1230px) {
 
   body {
     max-width: 100%;
@@ -187,7 +187,7 @@ body {
   }
 
   .logo_cabecalho {
-    max-width: 300%;
+    max-width: 60%;
     max-height: 35px;
   }
 
@@ -199,7 +199,9 @@ body {
   .fundo {
     margin-top: 1%;
     max-width: 100%;
-    height: 1750px;
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 9)),
+      url("../imgs/fundo_cabecalho.png");
+    height: 1900px;
   }
 
   .conteiner1_imgs {
@@ -219,35 +221,25 @@ body {
     max-height: auto;
   }
 
-  .botao_comprar {
-    position: absolute;
-    bottom: 10px;
-    left: 35%;
-    transform: translateX(-50%);
-    padding: 10px 15px;
-    background-color: black;
-    color: yellow;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-
-  .footer_46garage {
-    max-width: 100%;
-    margin-top: 25%;
+  button:active {
+    background-color: yellow;
+    color: black;
   }
 
   .conteiner_footer {
-    max-width: 100%;
-    max-height: 500px;
+    gap: 6rem;
   }
-
-  .text1 {
-    font-size: 15px;
-    max-width: 100px;
-    width: 100%;
+  
+  .text1,
+  .text2 {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     color: yellow;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .sobre-link .text2 {
+    text-decoration: underline;
   }
 
   .creditos {
@@ -258,7 +250,7 @@ body {
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 597px) {
 
   body {
     max-width: 100%;
@@ -280,9 +272,8 @@ body {
   }
 
   .fundo {
-    margin-top: 1%;
     max-width: 100%;
-    height: 1750px;
+    height: 1900px;
   }
 
   .conteiner1_imgs {
@@ -304,18 +295,18 @@ body {
 
   .footer_46garage {
     max-width: 100%;
-    margin-top: 30%;
   }
 
   .conteiner_footer {
     max-width: 100%;
     max-height: 500px;
+    gap: 1.5rem;
   }
 
-  .text1 {
-    font-size: 13px;
-    max-width: 100px;
-    width: 100%;
+  .text1,
+  .text2 {
+    font-size: 14px;
+    /* Ajusta o tamanho da fonte para telas pequenas */
   }
 
   .creditos {
