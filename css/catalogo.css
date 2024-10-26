@@ -156,8 +156,8 @@ body {
 
   .text1 {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    max-width: none;  
-    width: 100%; 
+    max-width: none;
+    width: 100%;
     color: yellow;
   }
 
@@ -194,11 +194,6 @@ body {
   .li_cabecalho {
     max-width: 100%;
     max-height: 35px;
-    color: yellow;
-    background-color: black;
-    border: solid 1px yellow;
-    border-radius: 10px;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
 
   .fundo {
@@ -282,11 +277,6 @@ body {
   .li_cabecalho {
     max-width: 70px;
     max-height: 35px;
-    color: yellow;
-    background-color: black;
-    border: solid 1px yellow;
-    border-radius: 10px;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
 
   .fundo {
@@ -312,19 +302,6 @@ body {
     max-height: auto;
   }
 
-  .botao_comprar {
-    position: absolute;
-    bottom: 10px;
-    left: 35%;
-    transform: translateX(-50%);
-    padding: 10px 15px;
-    background-color: black;
-    color: yellow;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-
   .footer_46garage {
     max-width: 100%;
     margin-top: 30%;
@@ -339,14 +316,12 @@ body {
     font-size: 13px;
     max-width: 100px;
     width: 100%;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    color: yellow;
   }
 
   .creditos {
     font-size: 10px;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    color: white;
+    max-width: 100px;
+    width: 100%;
   }
 
 }
