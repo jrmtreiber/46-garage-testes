@@ -71,9 +71,7 @@ body {
   .conteiner2_imgs {
     display: grid;
     gap: 20px;
-    /* Espaço entre os itens */
     grid-template-columns: 1fr;
-    /* Uma coluna por padrão */
   }
 
   .img-container {
@@ -161,24 +159,6 @@ body {
     color: yellow;
   }
 
-  .link_insta,
-  .insta_logo {
-    margin: 0;
-    padding: 0;
-  }
-
-  .insta_logo {
-    width: 12%;
-    height: 12%;
-    cursor: pointer;
-  }
-
-  .link_insta {
-    display: inline-block;
-    width: 12%;
-    height: 12%;
-  }
-
   .sobre {
     text-decoration: underline;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -260,11 +240,14 @@ body {
   }
 
   .img-container {
-    max-width: 220px;
+    max-width: 180px;
     max-height: auto;
   }
 
   .botao_comprar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     bottom: 10px;
     left: 35%;
@@ -279,7 +262,7 @@ body {
 
   .footer_46garage {
     max-width: 100%;
-    margin-top: 40%;
+    margin-top: 100%;
   }
 
   .conteiner_footer {
@@ -289,10 +272,14 @@ body {
 
   .text1 {
     font-size: 10px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: yellow;
   }
 
   .creditos {
     font-size: 10px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
   }
 
 }
