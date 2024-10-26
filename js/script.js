@@ -2,7 +2,7 @@
 const imagem = document.getElementById('imagem');
 const audio = document.getElementById('audio');
 
-imagem.addEventListener('mousedown', function () {
+imagem.addEventListener('click', function () {
     audio.play();
 });
 
