@@ -289,9 +289,9 @@ body {
     max-width: 90%;
   }
 
- .form-container {
-  max-width: 70%;
- }
+  .form-container {
+    max-width: 70%;
+  }
 
   .footer_46garage {
     max-width: 100%;
@@ -346,7 +346,7 @@ body {
 
   .footer_46garage {
     max-width: 100%;
-    margin-top: 80%;
+    margin-top: 75%;
   }
 
   .conteiner_footer {
